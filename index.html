@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="main.js" defer></script>
+<link rel="stylesheet" href="main.css">
+<title>Art Gallery of the Arts</title>
+</head>
+<body>
+    <navbar class="navbar navbar-expand-sm nav-secondary d-flex justify-content-center">
+        <h1 class="text-warning">Art Gallery Of the Arts</h1>
+    </navbar>
+    <div>
+        <div class="gallery">
+            <div class="top-row">
+                <div class="gallery_item gallery__item--1" id="fig1" onclick="getData(24306)">
+                    <img src="/images/Blue and Green Music.jpg" alt="Blue and Green Music" class="gallery_img">
+                </div>
+                <div class="gallery_item gallery__item--2" id="fig2" onclick="getData(129884)">
+                    <img src="/images/StarrynightAndTheAstronauts.jpg" alt="Starry Night and the Astronauts" class="gallery_img">
+                </div>
+                <div class="gallery_item gallery__item--3" id="fig3" onclick="getData(16298)">
+                    <img src="/images/PortraitOfJeanGros(recto).jpg" alt="Portrait of Jean Gros (recto)" class="gallery_img">
+                </div>
+            </div>
+            <div class="bot-row">
+                <div class="gallery_item gallery__item--4" id="fig4" onclick="getData(262116)">
+                    <img src="/images/HeadOfAnApostle.jpg" alt="Head of an Apostle" class="gallery_img">
+                </div>
+                <div class="gallery_item gallery__item--5" id="fig5" onclick="getData(4376)">
+                    <img src="/images/TheNativityAndTheAdorationOfTheShepherds.jpg" alt="The Nativity and the Adoration of the Shepherds" class="gallery_img">
+                </div>
+                <div class="gallery_item gallery__item--6" id="fig6" onclick="getData(104031)">
+                    <img src="/images/TheSheltonWithSunspotsNY.jpg" alt="The Shelton With Sunspots N.Y" class="gallery_img">
+                </div>
+            </div>
+            
+        </div>
+        <div class="hidden-container">
+            <h2 id="title"></h2>
+            <h3 id="artist_title"></h3>
+            <h4 id="department_title"></h4>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

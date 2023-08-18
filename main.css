@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/baclground.jpg);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.top-row{
+    display: flex;
+    justify-content: center;
+}
+.bot-row{
+    display:flex;
+    justify-content: center;
+}
+.gallery_img{
+    max-width: 400px;
+    height:auto;
+    border-radius: 25px;
+    margin: 10px;
+    border: 5px solid white;
+
+}
+.gallery_img:hover{
+    border:5px solid goldenrod;
+    cursor:pointer;
+
+}
+.gallery_item{
+    display:flex;
+    
+
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.469);
+}
+.hidden-container{
+    background-color: rgba(0, 0, 0, 0.648);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: cursive;
+    border-radius: 33px;
+    color:rgb(251, 222, 0);
+    
+}
+
+
+ 
